@@ -6,7 +6,7 @@ app = Flask(__name__)
 def hello():
     return "Hello Back4apper :)"
     
-@app.route("/1/<name>")
+@app.route("/<name>")
 def hello_1name(name):
     return f"Hello {name}"
     

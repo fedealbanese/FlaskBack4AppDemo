@@ -11,7 +11,7 @@ def hello_1name(name):
     return f"Hello {name}"
 
 @app.route("/var")
-def hello_var(name):
+def hello_var():
     return f"Hello {EXAMPLE_123}"
 
 if __name__ == '__main__':

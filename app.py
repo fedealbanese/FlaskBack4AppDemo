@@ -1,4 +1,5 @@
 from flask import Flask
+import os
 
 app = Flask(__name__)
 
@@ -12,7 +13,7 @@ def hello_1name(name):
 
 @app.route("/var")
 def hello_var():
-    return f"Hello {EXAMPLE_123}"
+    return f"Hello {os.environ['EXAMPLE_123']}"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)

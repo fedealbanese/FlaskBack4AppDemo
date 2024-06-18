@@ -1,0 +1,905 @@
+{
+    "accountready": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "accounttype": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "accruedcash": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "accruedcash-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "accruedcash-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "accruedcash-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "accrueddividend": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "accrueddividend-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "accrueddividend-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "accrueddividend-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "availablefunds": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "availablefunds-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "availablefunds-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "availablefunds-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "billable": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "billable-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "billable-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "billable-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "buyingpower": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "cushion": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "daytradesremaining": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "daytradesremainingt+1": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "daytradesremainingt+2": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "daytradesremainingt+3": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "daytradesremainingt+4": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "equitywithloanvalue": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "equitywithloanvalue-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "equitywithloanvalue-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "equitywithloanvalue-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "excessliquidity": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "excessliquidity-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "excessliquidity-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "excessliquidity-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullavailablefunds": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullavailablefunds-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullavailablefunds-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullavailablefunds-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullexcessliquidity": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullexcessliquidity-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullexcessliquidity-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullexcessliquidity-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullinitmarginreq": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullinitmarginreq-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullinitmarginreq-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullinitmarginreq-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullmaintmarginreq": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullmaintmarginreq-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullmaintmarginreq-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "fullmaintmarginreq-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "grosspositionvalue": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "grosspositionvalue-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "grosspositionvalue-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "grosspositionvalue-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "guarantee": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "guarantee-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "guarantee-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "guarantee-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "highestseverity": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "highestseverity-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "highestseverity-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "highestseverity-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "indianstockhaircut": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "indianstockhaircut-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "indianstockhaircut-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "indianstockhaircut-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "initmarginreq": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "initmarginreq-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "initmarginreq-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "initmarginreq-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "leverage": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "leverage-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "leverage-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "leverage-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadavailablefunds": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadavailablefunds-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadavailablefunds-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadavailablefunds-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadexcessliquidity": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadexcessliquidity-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadexcessliquidity-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadexcessliquidity-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadinitmarginreq": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadinitmarginreq-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadinitmarginreq-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadinitmarginreq-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadmaintmarginreq": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadmaintmarginreq-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadmaintmarginreq-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadmaintmarginreq-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "lookaheadnextchange": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "maintmarginreq": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "maintmarginreq-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "maintmarginreq-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "maintmarginreq-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "netliquidation": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "netliquidation-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "netliquidation-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "netliquidation-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "netliquidationuncertainty": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "nlvandmargininreview": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "pasharesvalue": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "pasharesvalue-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "pasharesvalue-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "pasharesvalue-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "postexpirationexcess": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "postexpirationexcess-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "postexpirationexcess-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "postexpirationexcess-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "postexpirationmargin": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "postexpirationmargin-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "postexpirationmargin-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "postexpirationmargin-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "previousdayequitywithloanvalue": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "previousdayequitywithloanvalue-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "previousdayequitywithloanvalue-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "previousdayequitywithloanvalue-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "segmenttitle-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "segmenttitle-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "segmenttitle-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "totalcashvalue": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "totalcashvalue-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "totalcashvalue-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "totalcashvalue-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "totaldebitcardpendingcharges": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "totaldebitcardpendingcharges-c": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "totaldebitcardpendingcharges-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "totaldebitcardpendingcharges-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "tradingtype-f": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    },
+    "tradingtype-s": {
+      "amount": 0,
+      "currency": "string",
+      "isNull": true,
+      "timestamp": 0,
+      "value": "string"
+    }
+  }

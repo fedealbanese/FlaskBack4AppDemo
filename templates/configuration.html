@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Configuration</title>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+<script>
+    function showLoading() {
+        document.querySelector('.loading').style.display = 'flex';
+    }
+</script>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Test configurations</h1>
+        <div class="input-with-button">
+            <form method="post" onsubmit="showLoading()">
+                <textarea type="text" class="input-configuration" name="input_configuration" placeholder="Enter modifications to the user state..."></textarea>
+                <button name="configuration_button" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="loading">
+            <span></span><span></span><span></span>
+        </div>
+        <div class="dictionary-container">
+            <pre>{{ user_state | tojson(indent=2) }}</pre>
+        </div>
+    </div>
+</body>
+</html>

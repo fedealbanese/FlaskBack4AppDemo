@@ -1,0 +1,86 @@
+/* static/css/styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: 'Montserrat';
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+h1 {
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+.input-with-button {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.loading {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loading span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    background: #007bff;
+    border-radius: 50%;
+    animation: bounce 0.6s infinite alternate;
+}
+.loading span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.loading span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+@keyframes bounce {
+    to {
+        opacity: 0.3;
+        transform: translateY(-10px);
+    }
+}
+.dictionary-container {
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}

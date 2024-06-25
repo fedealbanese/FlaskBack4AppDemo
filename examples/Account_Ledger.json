@@ -20,6 +20,7 @@
       "issueroptionsmarketvalue": 0,
       "key": "string",
       "timestamp": 0,
+      "dividends": 0,
       "severity": 0
     }
   }

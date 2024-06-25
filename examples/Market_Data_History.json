@@ -1,0 +1,31 @@
+{
+    "symbol": "string",
+    "text": "string",
+    "priceFactor": 100,
+    "startTime": "string",
+    "high": "string",
+    "low": "string",
+    "timePeriod": "string",
+    "barLength": 0,
+    "mdAvailability": "string",
+    "mktDataDelay": 0,
+    "outsideRth": true,
+    "tradingDayDuration": 0,
+    "volumeFactor": 0,
+    "priceDisplayRule": 0,
+    "priceDisplayValue": "string",
+    "negativeCapable": true,
+    "messageVersion": 0,
+    "data": [
+      {
+        "o": 0,
+        "c": 0,
+        "h": 0,
+        "l": 0,
+        "v": 0,
+        "t": 0
+      }
+    ],
+    "points": 0,
+    "travelTime": 0
+  }

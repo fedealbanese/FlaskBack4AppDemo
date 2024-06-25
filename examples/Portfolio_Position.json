@@ -1,0 +1,43 @@
+[
+    {
+      "acctId": "string",
+      "conid": 0,
+      "contractDesc": "string",
+      "assetClass": "string",
+      "position": 0,
+      "mktPrice": 0,
+      "mktValue": 0,
+      "currency": "string",
+      "avgCost": 0,
+      "avgPrice": 0,
+      "realizedPnl": 0,
+      "unrealizedPnl": 0,
+      "exchs": "string",
+      "expiry": "string",
+      "putOrCall": "string",
+      "multiplier": 0,
+      "strike": 0,
+      "exerciseStyle": "string",
+      "undConid": 0,
+      "conExchMap": [
+        "string"
+      ],
+      "baseMktValue": 0,
+      "baseMktPrice": 0,
+      "baseAvgCost": 0,
+      "baseAvgPrice": 0,
+      "baseRealizedPnl": 0,
+      "baseUnrealizedPnl": 0,
+      "name": "string",
+      "lastTradingDay": "string",
+      "group": "string",
+      "sector": "string",
+      "sectorGroup": "string",
+      "ticker": "string",
+      "undComp": "string",
+      "undSym": "string",
+      "fullName": "string",
+      "pageSize": 0,
+      "model": "string"
+    }
+  ]

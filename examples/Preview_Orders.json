@@ -1,0 +1,32 @@
+{
+    "orders": [
+      {
+        "acctId": "string",
+        "conid": 0,
+        "conidex": "conidex = 265598",
+        "secType": "secType = 265598:STK",
+        "cOID": "string",
+        "parentId": "string",
+        "orderType": "string",
+        "listingExchange": "string",
+        "isSingleGroup": true,
+        "outsideRTH": true,
+        "price": 0,
+        "auxPrice": "string",
+        "side": "string",
+        "ticker": "string",
+        "tif": "string",
+        "trailingAmt": 0,
+        "trailingType": "amt",
+        "referrer": "QuickTrade",
+        "quantity": 0,
+        "cashQty": 0,
+        "fxQty": 0,
+        "useAdaptive": true,
+        "isCcyConv": true,
+        "allocationMethod": "string",
+        "strategy": "string",
+        "strategyParameters": {}
+      }
+    ]
+  }

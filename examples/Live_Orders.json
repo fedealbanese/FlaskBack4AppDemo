@@ -1,0 +1,36 @@
+{
+    "filters": [
+      "inactive"
+    ],
+    "orders": [
+      {
+        "acct": "string",
+        "conidex": "string",
+        "conid": 0,
+        "orderId": "string",
+        "cashCcy": "string",
+        "sizeAndFills": "string",
+        "orderDesc": "string",
+        "description1": "string",
+        "ticker": "string",
+        "secType": "string",
+        "listingExchange": "string",
+        "remainingQuantity": 0,
+        "filledQuantity": 0,
+        "companyName": "string",
+        "status": "string",
+        "origOrderType": "string",
+        "supportsTaxOpt": 0,
+        "lastExecutionTime": 0,
+        "lastExecutionTime_r": 0,
+        "orderType": "string",
+        "order_ref": "string",
+        "side": "BUY",
+        "timeInForce": "string",
+        "price": 0,
+        "bgColor": "string",
+        "fgColor": "string"
+      }
+    ],
+    "snapshot": true
+  }

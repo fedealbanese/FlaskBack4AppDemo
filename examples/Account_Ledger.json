@@ -1,0 +1,25 @@
+{
+    "BASE": {
+      "commoditymarketvalue": 0,
+      "futuremarketvalue": 0,
+      "settledcash": 0,
+      "exchangerate": 0,
+      "sessionid": 0,
+      "cashbalance": 0,
+      "corporatebondsmarketvalue": 0,
+      "warrantsmarketvalue": 0,
+      "netliquidationvalue": 0,
+      "interest": 0,
+      "unrealizedpnl": 0,
+      "stockmarketvalue": 0,
+      "moneyfunds": 0,
+      "currency": "string",
+      "realizedpnl": 0,
+      "funds": 0,
+      "acctcode": "string",
+      "issueroptionsmarketvalue": 0,
+      "key": "string",
+      "timestamp": 0,
+      "severity": 0
+    }
+  }

@@ -118,5 +118,32 @@ def marketDataHistory():
     )
     return response
 
+@app.route('/iserver/account/<accountId>/orders', methods=['GET', 'POST']) #Place_Orders
+def placeOrders(accountId):
+    print("Se llamo al endpoint Place_Orders con parametro:", accountId)
+    body = request.get_json()
+    print("Body of the request: ", body)
+    #TODO: Siguientes 4 lineas hay que modificarlas
+    variables["user_state"]["request_order_body"] = body
+    variables["user_state"]["request_order_price"] = body["orders"][0]["price"]
+    variables["user_state"]["request_order_quantity"] = body["orders"][0]["quantity"]
+    variables["user_state"]["request_order_amout_to_rest"] = variables["user_state"]["request_order_price"] * variables["user_state"]["request_order_quantity"]
+    response = generate_response(
+        "Place_Orders", 
+        variables["user_state"], 
+        variables["response_dicts"]
+    )
+    return response
+
+@app.route('/iserver/reply/<replyid>') #Place_Orders_Replay
+def placeOrdersReplay(replyid):
+    print("Se llamo al endpoint Place_Orders_Replay con parametro:", replyid)
+    response = generate_response(
+        "Place_Orders_Replay", 
+        variables["user_state"], 
+        variables["response_dicts"]
+    )
+    return response
+
 if __name__ == '__main__':
     app.run(debug=True)

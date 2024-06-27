@@ -137,7 +137,7 @@ def placeOrders(accountId):
     )
     return response
 
-@app.route('/iserver/reply/<replyid>') #Place_Orders_Replay
+@app.route('/iserver/reply/<replyid>', methods=['GET', 'POST']) #Place_Orders_Replay
 def placeOrdersReplay(replyid):
     print("Se llamo al endpoint Place_Orders_Replay con parametro:", replyid)
     response = generate_response(

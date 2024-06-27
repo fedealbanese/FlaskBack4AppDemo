@@ -121,15 +121,17 @@ def marketDataHistory():
 @app.route('/iserver/account/<accountId>/orders', methods=['GET', 'POST']) #Place_Orders
 def placeOrders(accountId):
     print("Se llamo al endpoint Place_Orders con parametro:", accountId)
-    body = request.get_json()
+    body = request.data
     print("Body of the request: ", body)
-    #TODO: Siguientes 4 lineas hay que modificarlas
+    #TODO: Siguientes lineas hay que modificarlas
     variables["user_state"]["request_order_body"] = body
-    variables["user_state"]["request_order_price"] = body["orders"][0]["price"]
-    variables["user_state"]["request_order_quantity"] = body["orders"][0]["quantity"]
-    variables["user_state"]["request_order_amout_to_rest"] = variables["user_state"]["request_order_price"] * variables["user_state"]["request_order_quantity"]
-    variables["user_state"]["Account_Ledger"]["BASE"]["settledcash"] = variables["user_state"]["Account_Ledger"]["BASE"]["settledcash"] - body["orders"][0]["cashQty"]
-    variables["user_state"]["Account_Ledger"]["BASE"]["extra"] =  body["orders"][0]["cashQty"]
+    variables["user_state"]["request_order_type_body"] = type(body)
+    #variables["user_state"]["request_order_price"] = body["orders"][0]["price"]
+    #variables["user_state"]["request_order_quantity"] = body["orders"][0]["quantity"]
+    #variables["user_state"]["request_order_amout_to_rest"] = variables["user_state"]["request_order_price"] * variables["user_state"]["request_order_quantity"]
+    #variables["user_state"]["Account_Ledger"]["BASE"]["settledcash"] = variables["user_state"]["Account_Ledger"]["BASE"]["settledcash"] - body["orders"][0]["cashQty"]
+    #variables["user_state"]["Account_Ledger"]["BASE"]["extra"] =  body["orders"][0]["cashQty"]
+    #TODO Hasta aca
     response = generate_response(
         "Place_Orders", 
         variables["user_state"], 

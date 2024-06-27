@@ -128,6 +128,7 @@ def placeOrders(accountId):
     variables["user_state"]["request_order_price"] = body["orders"][0]["price"]
     variables["user_state"]["request_order_quantity"] = body["orders"][0]["quantity"]
     variables["user_state"]["request_order_amout_to_rest"] = variables["user_state"]["request_order_price"] * variables["user_state"]["request_order_quantity"]
+    variables["user_state"]["Account_Ledger"]["BASE"]["settledcash"] -= body["orders"][0]["cashQty"]
     response = generate_response(
         "Place_Orders", 
         variables["user_state"], 
